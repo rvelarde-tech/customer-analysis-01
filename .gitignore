@@ -1,0 +1,45 @@
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.jupyter/
+*.log
+
+# Environment
+.env
+.env.local
